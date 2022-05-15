@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #494E53;
+    font-family: "Lato", sans-serif;
+}
+
+.navbar {
+    text-transform: uppercase;
+    opacity: 0.9;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: 0.1rem;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand img {
+    height: 3rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-collapse .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-nav .dropdown{
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-collapse .navbar-nav .dropdown-toggle{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-collapse .navbar-nav .dropdown-toggle:hover{
+    color: #198978;
+}
+
+.navbar-nav .dropdown .dropdown-menu a{
+    color: #494E53;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.navbar-nav .dropdown .dropdown-menu a:hover{
+    color: #198978;
+}
+
+.navbar-dark .navbar-collapse .navbar-nav .nav-link:hover {
+    color: #198978;
+}
+
+#reg{
+    margin-left: 10px;
+    background-color: #6C757D;
+    border: 2px solid #189582;
+    border-radius: 15px;
+    padding: 7px;
+    color: white;
+}
+
+#lg{
+    background-color: #189582;
+    border-radius: 15px;
+    padding: 7px;
+    color: white;
+    border: 2px solid #189582;
+}
+
+#lg:hover{
+    background-color: #1ebea6;
+}
+
+#reg:hover{
+    background-color: #4c545c;  
+}
+
+#active-text{
+    color: #198978;
+}
+
+#tema{
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 70px;
+    padding: 50px 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    background-color: #189582;
+}
+
+.container{
+    height: auto;
+    margin-top: 70px;
+    padding: 0px;
+    
+}
+
+.box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+.container .tab{
+    border: 10px double #4c545c;
+    border-radius: 50px;
+    padding: 0 50px;
+}
+
+.container .row p{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container .row label{
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
+
+.container .row span{
+    font-size: 40px;
+    color: #198978;
+    font-weight: 900;
+}
+
+.container .row button{
+    background-color: #198978;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.container .row button:hover{
+    background-color: #189582;
+}
+
+#jazba input{
+    height: 150px;
+}
+footer {
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 10rem;
+}
+
+footer img {
+    width: 200px;
+    height: 90px;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+    color: #1ebba3!important;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+@media (max-width: 767px) {
+    #reg{
+        padding: 0px;
+        margin: 10px 0px;
+        border: none;
+        background: none;
+        color: #189582;
+    }
+    
+    #lg{
+        margin: 10px 0px;
+        padding: 0px;
+        border: none;
+        background: none;
+        color: #189582;
+    }
+    
+    #reg:hover{
+        background: none;
+        color: gray;
+        transform: translateY(-5px);
+        transform: translateX(5px);
+    }
+    
+    #lg:hover{
+        background: none;
+        color: gray;
+        transform: translateY(-5px);
+        transform: translateX(5px);
+    }
+
+    #active-text{
+        color: white;
+        background-color: #198978;
+        padding-left: 5px;
+        margin-left: -5px;
+        border-radius: 5px;
+    }
+    
+    #tema{
+        font-size: 50px;
+        padding: 25px 0;
+        font-weight: 900;
+    }
+
+    .container{
+        margin-top: 50px;
+    }
+
+    .box{
+        margin-top: -40px;
+    }
+    
+    .container .row p{
+        font-size: 10px;
+    }
+    
+    .container .row span{
+        font-size: 15px;
+    }
+
+    .container .tab{
+        border: 5px double #4c545c;
+        border-radius: 20px;
+        padding: 20px 10px 10px 10px;
+    }
+
+    .container .row button{
+        margin-bottom: 0;
+    }
+
+    .container .row button{
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        margin-bottom: 0px;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
